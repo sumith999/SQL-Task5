@@ -1,5 +1,6 @@
 SQL Task 5 – JOIN Operations
 
+
 This task focuses on performing **SQL JOIN operations** using MySQL to combine and analyze data from multiple related tables.
 
 ---
@@ -16,8 +17,7 @@ This task focuses on performing **SQL JOIN operations** using MySQL to combine a
 
 &nbsp; \* Insertion of sample records
 
-&nbsp; \* Queries demonstrating \*\*INNER JOIN\*\*, \*\*LEFT JOIN\*\*, \*\*RIGHT JOIN\*\*, and \*\*FULL JOIN\*\* (using `UNION`)
-
+&nbsp; \* Queries demonstrating `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, and `FULL JOIN(using `UNION`)`
 &nbsp; \* Grouping and filtering data using `GROUP BY` and `HAVING`
 
 \* `Screenshots.docx` – Contains screenshots of executed SQL commands and their outputs for verification
@@ -28,57 +28,39 @@ This task focuses on performing **SQL JOIN operations** using MySQL to combine a
 
 
 
-\## Operations Performed
+## Operations Performed
 
 
 
-\* \*\*Created Tables:\*\*
+* **Created Tables:**
 
 
 
-&nbsp; \* `Customers` – Stores customer details such as `CustomerID`, `CustomerName`, `Country`, `Email`, `JoinDate`
+&nbsp; * `Customers` – Stores customer details such as `CustomerID`, `CustomerName`, `Country`, `Email`, `JoinDate`
 
-&nbsp; \* `Orders` – Stores order details such as `OrderID`, `CustomerID`, `ProductName`, `OrderDate`, `Price`, and `Quantity`
-
-
-
-\* \*\*Inserted Data:\*\*
+&nbsp; * `Orders` – Stores order details such as `OrderID`, `CustomerID`, `ProductName`, `OrderDate`, `Price`, and `Quantity`
 
 
 
-&nbsp; \* Multiple customer and order records, including some cases with missing matches to test JOIN results
+* **Inserted Data:**
 
 
 
-\* \*\*Executed JOIN Queries:\*\*
+&nbsp; * Multiple customer and order records, including some cases with missing matches to test JOIN results
 
 
 
-&nbsp; \* \*\*INNER JOIN\*\* – Customers who have placed orders
-
-&nbsp; \* \*\*LEFT JOIN\*\* – All customers, even those without orders
-
-&nbsp; \* \*\*RIGHT JOIN\*\* – All orders, even if the customer is missing
-
-&nbsp; \* \*\*FULL JOIN\*\* (via `UNION`) – All customers and all orders regardless of match
+* **Executed JOIN Queries:**
 
 
 
----
+&nbsp; * **INNER JOIN** – Customers who have placed orders
 
+&nbsp; * **LEFT JOIN** – All customers, even those without orders
 
+&nbsp; * **RIGHT JOIN** – All orders, even if the customer is missing
 
-\## How to Run
-
-
-
-1\. Open \*\*MySQL Workbench\*\*
-
-2\. Connect to your local server
-
-3\. Run `task5.sql` in a new SQL tab
-
-4\. Review the outputs or refer to `Screenshots.docx`
+&nbsp; * **FULL JOIN** (via `UNION`) – All customers and all orders regardless of match
 
 
 
@@ -86,17 +68,17 @@ This task focuses on performing **SQL JOIN operations** using MySQL to combine a
 
 
 
-\## Notes
+## How to Run
 
 
 
-\* Ensure MySQL server is running before execution
+1. Open **MySQL Workbench**
 
-\* Database name used: `Sales`
+2. Connect to your local server
 
-\* Foreign keys enforce relationship between `Customers` and `Orders`
+3. Run `task5.sql` in a new SQL tab
 
-\* FULL JOIN is simulated using a `UNION` of LEFT and RIGHT JOINs (since MySQL doesn’t have native FULL JOIN support)
+4. Review the outputs or refer to `Screenshots.docx`
 
 
 
@@ -104,11 +86,29 @@ This task focuses on performing **SQL JOIN operations** using MySQL to combine a
 
 
 
-\## Author
+## Notes
 
 
 
-\*\*Sumith Poojary\*\*
+* Ensure MySQL server is running before execution
+
+* Database name used: `Sales`
+
+* Foreign keys enforce relationship between `Customers` and `Orders`
+
+* FULL JOIN is simulated using a `UNION` of LEFT and RIGHT JOINs (since MySQL doesn’t have native FULL JOIN support)
+
+
+
+---
+
+
+
+## Author
+
+
+
+**Sumith Poojary**
 
 GitHub: \[sumith999](https://github.com/sumith999)
 
