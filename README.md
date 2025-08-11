@@ -1,26 +1,18 @@
-\# SQL Task 5 – JOIN Operations
+SQL Task 5 – JOIN Operations
 
-
-
-
-
-This task focuses on performing \*\*SQL JOIN operations\*\* using MySQL to combine and analyze data from multiple related tables.
-
-
+This task focuses on performing **SQL JOIN operations** using MySQL to combine and analyze data from multiple related tables.
 
 ---
 
+## Files Included
 
 
-\## Files Included
+ - **task5.sql** – SQL script that:
+  - Creates a `Sales` database
+  - Adds tables:
+    - `Customers`
+    - `Orders`
 
-
-
-\* `task5.sql` – SQL script containing:
-
-
-
-&nbsp; \* Creation of `Customers` and `Orders` tables
 
 &nbsp; \* Insertion of sample records
 
