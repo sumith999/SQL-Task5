@@ -1,4 +1,4 @@
-SQL Task 5 – JOIN Operations
+# SQL Task 5 – JOIN Operations
 
 
 This task focuses on performing **SQL JOIN operations** using MySQL to combine and analyze data from multiple related tables.
@@ -110,7 +110,7 @@ This task focuses on performing **SQL JOIN operations** using MySQL to combine a
 
 **Sumith Poojary**
 
-GitHub: \[sumith999](https://github.com/sumith999)
+GitHub: [sumith999](https://github.com/sumith999)
 
 
 
